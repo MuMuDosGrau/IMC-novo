@@ -1,0 +1,73 @@
+
+
+
+
+.imc {
+
+    background-color: rgb(4, 255, 4);
+    background-position: center;
+    width: 200px;
+    height: 0px;
+    text-align: center;
+    border: 2px solid rgb(112, 112, 112);
+    border-radius: 5%;
+
+
+}
+
+.logo{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.informacoes {
+    position: relative;
+    left: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: whitesmoke;
+    background-position: center;
+    width: 1000px;
+    height: 500px;
+    border: 1px solid grey;
+    border-radius: 2%;
+
+}
+
+.resultado {
+    position: relative;
+    left: 150px;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: whitesmoke;
+    background-position: center;
+    width: 1000px;
+    height: 500px;
+    border: 1px solid grey;
+    border-radius: 2%;
+
+}
+
+.fotojogador {
+    width: 150px;
+    right: 400px;
+    border: 1px solid black;
+    border-radius: 40%;
+}
+
+.submit {
+    font-size: small;
+    color:white;
+    width: 100px;
+    height: 19px;
+    background-color: rgb(46, 46, 230);
+    border: 1px solid black;
+    border-radius: 8%;
+}
