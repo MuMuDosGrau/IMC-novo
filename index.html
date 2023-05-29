@@ -1,72 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>calculador de IMC</title>
+    <title>Calculador Imc</title>
     <link rel="stylesheet" href="estilo.css" />
-
 </head>
 
 <body>
 
-    <div class="fundo">
+    <div class="informacoes">
 
-        <div class="informacoes">
-
-            <div class="logo">
-                <img src="logo.png" width="100">
-                <h1>Avaliação CBF:</h1>
-            </div>
-
-
-
-            <form>
-
-
-                <input placeholder="Nome Jogador:" name="nome" type="text" />
-
-
-                <input placeholder="Altura Jogador (1,80):" name="altura" type="text">
-
-
-                <input placeholder="Peso Jogador: " name="peso" type="text" />
-
-
-                <input placeholder="Descrição do jogador" name="descricao" type="text" />
-
-
-                <input placeholder="Foto do Jogador (http):" name="foto" type="text" />
-
-
-                <button class="submit" type="submit">Calcular</button>
-            </form>
-
+        <div class="logo">
+            <img src="logo.png" width="100">
+            <h1>Avaliação CBF: </h1>
         </div>
 
 
 
-        <div class="resultado">
+        <form>
 
-            <img class="fotojogador" id="fotoJogador" />
+            <input placeholder="Nome Jogador:" name="nome" type="text" />
 
-            <h3 id="nome">Nome do Jogador: </h3>
-            <h3 id="altura">Altura: </h3>
-            <h3 id="peso">Peso: </h3>
-            <h3 id="descricao">Descrição</h3>
-            <h3 id="imc">IMC: </h3>
+            <input placeholder="Altura Jogador (1,80):" name="altura" type="text">
 
+            <input placeholder="Peso Jogador: " name="peso" type="text" />
 
-            <div class="imc">
-                <h3 id="imcResultado">IMC</h3>
+            <input placeholder="Descrição do jogador" name="descricao" type="text" />
 
+            <input placeholder="Foto do Jogador (http):" name="foto" type="text" />
 
+            <button class="submit" type="submit">Calcular</button>
 
+        </form>
 
-                <script src="./script.js"></script>
-            </div>
-        </div>
     </div>
+
+    <div class="resultado">
+        
+        <div class="divFotinha">
+            <img class=fotinha width="150" id="fotoJogador" />
+        </div>
+
+      <div class="resultadoTxt">
+        <h3 id="nome">Nome do Jogador: </h3>
+        <h3 id="altura">Altura: </h3>
+        <h3 id="peso">Peso: </h3>
+        <h3 id="descricao">Descrição</h3>
+        <h3 id="imc">IMC: </h3>
+
+        <div class="imc">
+
+            <h3 id="imcResultado">IMC</h3>
+
+        </div>
+        <script src="./script.js"></script>
+    </div>
+
+    </div>
+
+
 
 </body>
 
