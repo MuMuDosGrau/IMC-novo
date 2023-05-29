@@ -1,65 +1,76 @@
-
-
-
-
-.imc {
-
-    background-color: rgb(4, 255, 4);
-    background-position: center;
-    width: 200px;
-    height: 0px;
-    text-align: center;
-    border: 2px solid rgb(112, 112, 112);
-    border-radius: 5%;
-
-
+.informacoes {
+    position: relative ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    justify-content: center ;
+    left: 140px ;
+    gap: 30px ;
+    background-color: whitesmoke ;
+    width: 1000px ;
+    height: 500px ;
+    border: 1px solid grey ;
+    border-radius: 2%;
 }
 
 .logo{
-    background-color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.informacoes {
     position: relative;
-    left: 150px;
+    bottom: 80px;
+    left: 30px;
+    background-color: whitesmoke;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    background-color: whitesmoke;
-    background-position: center;
-    width: 1000px;
-    height: 500px;
-    border: 1px solid grey;
-    border-radius: 2%;
-
+    gap: 5px;
 }
 
 .resultado {
     position: relative;
-    left: 150px;
-    top: 50px;
+    left: 140px;
+    top: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: whitesmoke;
     background-position: center;
     width: 1000px;
-    height: 500px;
+    height: auto;
     border: 1px solid grey;
     border-radius: 2%;
-
+    gap: 40px;
 }
 
-.fotojogador {
-    width: 150px;
-    right: 400px;
+.divFotinha {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    top: 10px;
+    left: 50px;
+    bottom: 10px;
+}
+
+.fotinha {
     border: 1px solid black;
-    border-radius: 40%;
+    border-radius: 100%;
+}
+
+.resultadoTxt{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 200px;
+}
+
+.imc {
+    background-color: rgb(4, 255, 4);
+    background-position: center;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid rgb(112, 112, 112);
+    border-radius: 5%;
 }
 
 .submit {
@@ -71,3 +82,4 @@
     border: 1px solid black;
     border-radius: 8%;
 }
+
